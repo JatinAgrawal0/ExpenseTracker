@@ -1,0 +1,482 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\expensetrackerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:expensetrackerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|c:\\users\\agrwl\\source\\repos\\expensetrackerapp\\data\\migrations\\20240907104414_addtabletodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD124FC0-6D47-4430-A3C8-E792874567BE}|ExpenseTrackerApp.csproj|solutionrelative:data\\migrations\\20240907104414_addtabletodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-08T12:40:46.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T10:55:37.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:24:09.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T10:56:14.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseTrackerApp.csproj",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApp.csproj",
+              "RelativeDocumentMoniker": "ExpenseTrackerApp.csproj",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\ExpenseTrackerApp.csproj",
+              "RelativeToolTip": "ExpenseTrackerApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-07T10:45:59.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:50:10.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\DashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DashBoard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\DashBoard\\Index.cshtml",
+              "RelativeToolTip": "Views\\DashBoard\\Index.cshtml",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAowK0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:58:34.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Controllers\\DashBoardController.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAgwJ0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:53:24.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transaction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "Views\\Transaction\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T12:00:10.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:25:03.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:37:13.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:38:27.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Category\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\AddOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Category\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Category\\AddOrEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:40:29.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-07T10:55:01.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Transaction\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Transaction\\AddOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Transaction\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Transaction\\AddOrEdit.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:44:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T10:25:06.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T12:27:36.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T12:27:39.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:35:08.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAmwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T11:34:32.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T10:56:49.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T10:56:38.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-07T10:59:01.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAmwKMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:52:29.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240907104414_AddTableToDB.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\20240907104414_AddTableToDB.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240907104414_AddTableToDB.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\20240907104414_AddTableToDB.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240907104414_AddTableToDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:44:14.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:36:38.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAANwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:29:20.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\agrwl\\source\\repos\\ExpenseTrackerApp\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:28:49.042Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

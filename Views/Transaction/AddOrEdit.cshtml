@@ -1,0 +1,65 @@
+﻿@model ExpenseTrackerApp.Models.Transaction
+
+@{
+    ViewData["Title"] = Model.TransactionId == 0 ? "Create a New Transaction" : "Edit Transaction";
+}
+
+<!-- Main container -->
+<div class="container mt-5">
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8 col-lg-6">
+            <!-- Card with form -->
+            <div class="card p-4 shadow-lg border-light">
+                <!-- Added shadow-lg for a more pronounced shadow -->
+                <h2 class="text-center text-primary mb-4">@ViewData["Title"]</h2>
+                <form asp-action="AddOrEdit">
+                    <!-- Validation summary -->
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-3"></div>
+
+                    <!-- Hidden Field for Transaction ID -->
+                    <input type="hidden" name="TransactionId" value="@Model.TransactionId" />
+                    <input type="hidden" name="UserId" value="@Model.UserId" />
+
+                    <!-- Date Picker -->
+                    <div class="mb-4">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" id="date" asp-for="Date" class="form-control" />
+                        <div asp-validation-for="Date" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Category Dropdown -->
+                    <div class="mb-4">
+                        <label for="category" class="form-label">Category</label>
+                        <select id="category" asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select">
+                        </select>
+                        <div asp-validation-for="CategoryId" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Amount -->
+                    <div class="mb-4">
+                        <label for="amount" class="form-label">Amount</label>
+                        <input type="number" id="amount" asp-for="Amount" class="form-control" min="0" step="0.01" />
+                        <div asp-validation-for="Amount" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Note -->
+                    <div class="mb-4">
+                        <label for="note" class="form-label">Note</label>
+                        <textarea id="note" asp-for="Note" class="form-control" rows="3"></textarea>
+                        <div asp-validation-for="Note" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Icon Section -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4 text-center">
+            <i class="fa-solid fa-money-bill-transfer fa-3x text-success"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ExpenseTrackerApp.Models.Category>
+
+@{
+    ViewData["PageTitle"] = "JatinAgrawalCategories";
+    ViewData["PageActionText"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
+}
+
+<!-- Full page container with white background -->
+<div class="container-fluid  min-vh-100" >
+    <div class="row py-4">
+        <div class="col-md-12">
+            <!-- Header and Button Row -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="mb-0">Categories</h2>
+                <!-- Add New Category Button -->
+                <a class="btn btn-outline-primary d-flex align-items-center px-3 py-2 " href="/Category/AddOrEdit">
+                    <i class="bi bi-plus me-1"></i> Add Category
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ejs-grid id="categories" dataSource="@Model" gridLines="Default"
+                      allowSorting="true" allowPaging="true" >
+                <e-grid-pagesettings pageSize="10"></e-grid-pagesettings>
+                <e-grid-columns >
+                    <e-grid-column headerText="Category" field="TitleWithIcon" textAlign="Center" width="150px"></e-grid-column>
+                    <e-grid-column headerText="Type" template="#typeColumnTemplate" textAlign="Center" width="150px"></e-grid-column>
+                    <e-grid-column headerText="Actions" template="#actionColumnTemplate" textAlign="Center" width="150px"></e-grid-column>
+                </e-grid-columns>
+            </ejs-grid>
+        </div>
+    </div>
+</div>
+
+<script id="typeColumnTemplate" type="text/x-template">
+    ${if(Type=="Income")}
+        <span class="badge bg-success">${Type}</span>
+    ${else}
+        <span class="badge bg-danger">${Type}</span>
+    ${/if}
+</script>
+
+<script id="actionColumnTemplate" type="text/x-template">
+    <div class="d-flex flex-row justify-content-center align-items-center">
+        <!-- Edit Button -->
+        <a class="btn btn-sm btn-primary d-flex align-items-center me-2" href="/Category/AddOrEdit/${CategoryId}" role="button">
+            <i class="bi bi-pencil me-1"></i>
+            Edit
+        </a>
+
+        <!-- Delete Button -->
+        <form action="/Category/Delete/${CategoryId}" method="post" class="mb-0">
+    @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-sm btn-danger d-flex align-items-center"
+                onclick="return confirm(&quot;Are you sure you want to delete this record? &quot;)">
+                <i class="bi bi-trash me-1"></i>
+                Delete
+            </button>
+        </form>
+    </div>
+</script>
+
+

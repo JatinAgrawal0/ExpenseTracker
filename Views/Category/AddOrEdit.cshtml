@@ -1,0 +1,56 @@
+﻿@model ExpenseTrackerApp.Models.Category
+
+@{
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Create a New Category" : "Edit Category";
+}
+
+<!-- Main container -->
+<div class="container mt-5">
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8 col-lg-6">
+            <!-- Card with form -->
+            <div class="card p-4 shadow-lg border-light">
+                <!-- Added shadow-lg for a more pronounced shadow -->
+                <h2 class="text-center text-primary mb-4">@ViewData["PageTitle"]</h2>
+                <form asp-action="AddOrEdit">
+                    <!-- Validation summary -->
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-3"></div>
+
+                    <!-- Hidden Field for Category ID -->
+                    <input type="hidden" name="CategoryId" value="@Model.CategoryId" />
+                    <input type="hidden" name="UserId" value="@Model.UserId" />
+
+                    <!-- Type Selection -->
+                    <div class="mb-4">
+                        <label class="form-label">Category Type</label>
+                        <div class="btn-group w-100" role="group" aria-label="Category Type">
+                            <input type="radio" id="radioExpense" name="Type" value="Expense" class="btn-check" @(Model.Type == "Expense" ? "checked" : "") />
+                            <label class="btn btn-outline-primary w-50" for="radioExpense">Expense</label>
+                            <input type="radio" id="radioIncome" name="Type" value="Income" class="btn-check" @(Model.Type == "Income" ? "checked" : "") />
+                            <label class="btn btn-outline-primary w-50" for="radioIncome">Income</label>
+                        </div>
+                    </div>
+
+                    <!-- Title Input -->
+                    <div class="mb-4">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" id="title" asp-for="Title" class="form-control" placeholder="Enter category title" aria-describedby="titleHelp" />
+                        <div id="titleHelp" class="form-text">Please provide a clear title for the category.</div>
+                        <div asp-validation-for="Title" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Icon Input -->
+                    <div class="mb-4">
+                        <label for="icon" class="form-label">Icon</label>
+                        <input type="text" id="icon" asp-for="Icon" class="form-control" placeholder="Enter icon" aria-describedby="iconHelp" />
+                        <div id="iconHelp" class="form-text">Specify the icon to represent this category.</div>
+                        <div asp-validation-for="Icon" class="invalid-feedback"></div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

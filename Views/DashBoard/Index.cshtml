@@ -1,0 +1,197 @@
+﻿@using Syncfusion.EJ2;
+@using Syncfusion.EJ2.Charts
+@{
+    ViewData["isDashboard"] = true;
+}
+
+@*Filter Dates*@
+<div class="row widget mb-4 pt-4">
+    <form asp-action="FilterDates" method="post" class="d-flex flex-column align-items-center">
+        <div class="row w-100">
+            <div class="col-md-5 col-lg-4 mb-3">
+                <div class="px-2">
+                    <ejs-datepicker id="date_start" name="date_start" placeholder="Start Date" floatLabelType="Always" format="MMM-dd-yy" value="@ViewBag.StartDate"></ejs-datepicker>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 mb-3">
+                <div class="px-2">
+                    <ejs-datepicker id="date_end" name="date_end" placeholder="End Date" floatLabelType="Always" format="MMM-dd-yy" value="@ViewBag.EndDate"></ejs-datepicker>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-4 d-flex align-items-center mb-3">
+                <div class="d-flex justify-content-center w-100">
+                    <ejs-button id="submit" type="submit" class="btn btn-primary">
+                        <e-content-template>
+                            Search
+                        </e-content-template>
+                    </ejs-button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+    </form>
+</div>
+
+
+@* /***************************************************************************************/ *@
+
+<div class="container mt-4 ">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 ">
+            <div class="card shadow-lg ">
+                <div class="card-body text-center">
+                    <i class="fas fa-dollar-sign card-icon fa-2x"></i>
+                    <h3 class="card-value" id="tolincome">@ViewBag.TotalIncome</h3>
+                    <p class="card-text">Income</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <i class="fas fa-exclamation-circle card-icon fa-2x"></i>
+                    <h3 class="card-value" id="tolexpense">@ViewBag.TotalExpense</h3>
+                    <p class="card-text">Expenses</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow-lg ">
+                <div class="card-body text-center">
+                    <i class="fas fa-balance-scale card-icon fa-2x"></i>
+                    <h3 class="card-value" id="tolbalance">@ViewBag.Balance</h3>
+                    <p class="card-text">Balance</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <i class="fas fa-tachometer-alt card-icon fa-2x"></i>
+                    <h3 class="card-value" id="toltransaction">@ViewBag.TotalTransaction</h3>
+                    <p class="card-text">Transactions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mb-12">
+    <div class="col-md-6">
+        <div class="card shadow-lg border-success">
+            <div class="widget chart">
+                <div class="p-4">
+                    <h5 class="fw-bold text-center">Expense By Category</h5>
+                </div>
+
+                <ejs-accumulationchart id="doughnutchart" enableSmartLabels >
+                    <e-accumulation-series-collection>
+                        <e-accumulation-series dataSource="@ViewBag.DoughnutChartData"
+                                               xName="categoryTitleWithIcon" yName="amount"
+                                               innerRadius="40%" legendShape="Circle"
+                                               palettes=@(new string[]{"#d9534f","#f0ad4e","#ffd66b","#8bc34a","#4caf50","#5bc0de","#5b9bd5","#a084ca","#6c757d","#adb5bd"})>
+                            <e-accumulationseries-datalabel  name="formattedAmount" visible ></e-accumulationseries-datalabel>
+                        </e-accumulation-series>
+                    </e-accumulation-series-collection>
+                    <e-accumulationchart-legendsettings position="Right" toggleVisibility="true">
+                        <e-legendsettings-textstyle color="#000" size="1.1rem"></e-legendsettings-textstyle>
+                    </e-accumulationchart-legendsettings>
+                    <e-accumulationchart-tooltipsettings enable></e-accumulationchart-tooltipsettings>
+                </ejs-accumulationchart>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-lg border-success">
+        <div class="widget chart">
+            <div class="p-4">
+                <h5 class="fw-bold">Income vs Expense</h5>
+            </div>
+                <ejs-chart id="spline-chart" 
+                           palettes=@(new string[]{"#54ffa9","#ffe91a"})>
+                    @* chart lines color *@
+                    <e-chart-primaryxaxis valueType="Category">
+                        <e-majorgridlines width="0"></e-majorgridlines>
+                        <e-majorticklines width="0"></e-majorticklines>
+                    </e-chart-primaryxaxis>
+                    <e-chart-primaryyaxis>
+                        <e-majorgridlines width="1" color="#32414d" dashArray="3,5"></e-majorgridlines>
+                        <e-majorticklines width="0"></e-majorticklines>
+                        <e-linestyle width="0"></e-linestyle>
+                    </e-chart-primaryyaxis>
+                    <e-chart-chartarea>
+                        <e-chartarea-border width="0"></e-chartarea-border>
+                    </e-chart-chartarea>
+                    <e-series-collection>
+                        <e-series dataSource="@ViewBag.SplineChartData" xName="day" width="3"
+                                  yName="income" name="Income" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Spline"></e-series>
+                        <e-series dataSource="@ViewBag.SplineChartData" xName="day" width="3"
+                                  yName="expense" name="Expense" type="@Syncfusion.EJ2.Charts.ChartSeriesType.Spline"></e-series>
+                    </e-series-collection>
+                    <e-chart-legendsettings position="Top" alignment="Far" toggleVisibility="false">
+                        <e-legendsettings-textstyle color="#000" size="1rem"></e-legendsettings-textstyle>
+                    </e-chart-legendsettings>
+                    <e-chart-tooltipsettings enable shared></e-chart-tooltipsettings>
+                </ejs-chart>
+
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card shadow-lg border-success">
+            <div class="widget chart">
+                <div class="p-4">
+                    <h5 class="fw-bold text-center">Expense </h5>
+                </div>
+
+                    <ejs-chart id="container" width="100%" height="100%" >
+                        <e-chart-primaryxaxis valueType="Category"></e-chart-primaryxaxis>
+                        <e-series-collection>
+                            <e-series dataSource="ViewBag.expenseSummary" xName="day" yName="expense"
+                                      type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
+                                <e-series-marker>
+                                    <e-series-datalabel visible="true"></e-series-datalabel>
+                                </e-series-marker>
+                                <e-series-animation enable="true" delay="100"></e-series-animation>
+                            </e-series>
+                        </e-series-collection>
+                    </ejs-chart>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card shadow-lg border-success">
+        <div class="widget">
+            <div class="p-4">
+                <h5 class="fw-bold">Recent Transactions</h5>
+            </div>
+            <div class="px-4 pb-4">
+                <ejs-grid id="recent-transactions"
+                          dataSource="@ViewBag.RecentTransactions" gridLines="None">
+                    <e-grid-columns>
+                        <e-grid-column headerText="Category" field="CategoryTitleWithIcon"></e-grid-column>
+                        <e-grid-column headerText="Date" field="Date" type="date" format="MMM-dd-yy"></e-grid-column>
+                        <e-grid-column headerText="Amount" field="FormattedAmount" textAlign="Right"></e-grid-column>
+                    </e-grid-columns>
+                </ejs-grid>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+
+
